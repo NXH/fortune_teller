@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lucky Numbers</title>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+</head>
+
+<body>
+
+  <h1>Your lucky numbers are:</h1>
+  <h2>
+    <% @lucky_number.each do |number| %>
+      <%= number %>
+      <% end %>
+  </h2>
+
+  <h2>
+    <%= 3 + 2 %>
+  </h2>
+
+</body>
+</html>
